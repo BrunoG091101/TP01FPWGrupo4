@@ -1,0 +1,21 @@
+
+body {
+    font-family: 'Press Start 2P', cursive;
+    background-color: #dd1717;
+    color: #07a1ee;
+    text-align: center;
+    margin: 0;
+    padding: 50px;
+}
+
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+
+p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
