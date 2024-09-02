@@ -15,12 +15,13 @@
 }*/
 body{
     margin: 0;
-
+    font: oblique 120% cursive;
 }
 
 a{
     text-decoration: none;
     color: aliceblue;
+    text-align: center;
 }
 
 header{
@@ -60,11 +61,13 @@ nav{
 .nav-header a{
     background-color: brown;
     padding-inline: 10px;
+    border-radius: 10px;
+    
 }
 
 
 fieldset{
-    padding: 5px;
+
 }
 
 /*.div-nav{
@@ -79,7 +82,7 @@ fieldset{
 }*/
 
 .titulo{
-    background-image: url("../css/espacio.gif");
+    background-image: url("../images/espacio.gif");
     background-size: cover;
     height: auto;
     width: auto;
@@ -94,6 +97,42 @@ fieldset{
     display:flex;
     color: aliceblue;
     justify-content: space-around;
+}
+
+
+/*PARTICIPANTES*/
+
+.participantes{
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    background-image: url("../images/espacio-img.png");
+    color: aliceblue;
+
+}
+
+.participantes .titulo-participantes{
+    padding: 5px;
+    background-color: rgb(196, 62, 13);
+    border-radius: 30px;
+}
+
+.participantes .participantes-des{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 10px;
+}
+.participantes article{
+    background-color: rgb(247, 124, 9);
+    border-radius: 30px;
+    margin: 10px;
+    padding: 5px;
+}
+
+.participantes button{
+    display: inline-flex;
+    background-color: rgb(196, 62, 13);
+    column-gap: ;
 }
 
 /*.div-section{
