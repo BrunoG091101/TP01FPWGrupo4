@@ -129,10 +129,21 @@ fieldset{
     padding: 5px;
 }
 
-.participantes button{
+.participantes article button{
     display: inline-flex;
     background-color: rgb(196, 62, 13);
-    column-gap: ;
+    column-gap: 5px;
+    padding: 5px;
+    font: oblique 80% cursive;
+    border-radius: 20px;
+    font-weight: 300;
+    box-shadow: 0 8px 24px black;
+    margin-bottom: 5px;
+}
+
+.participantes button:hover{
+    box-shadow: 0 8px 32px rgb(219, 0, 0);
+    transform: translateY(2px);
 }
 
 /*.div-section{
