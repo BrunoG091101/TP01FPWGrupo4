@@ -76,6 +76,23 @@ nav{
     border-style: groove;
 }
 
+main{
+    background-image: url("../css/espacio.gif");
+    background-size: cover;
+    height: auto;
+    width: auto;
+}
+
+.mundito{
+    display:flex;
+    justify-content: flex-end;
+}
+
+.chronospace{
+    display:flex;
+    justify-content: space-around;
+}
+
 .div-section{
     display: flex;
     flex-direction: row;
