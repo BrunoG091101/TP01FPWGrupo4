@@ -1,4 +1,4 @@
-.gridBody{
+/*.gridBody{
     background-color: cadetblue;
     display: grid;
     grid-column: repeat(5,1fr);
@@ -12,14 +12,55 @@
     grid-area: 1 / 1 / 2 / 2;
     background-color: aqua;
     border-style: groove;
+}*/
+body{
+    margin: 0;
+
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
 }
 
 header{
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    background-color: black;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
 }
-.div-nav{
+
+.home{
+    display: flex;
+}
+
+.home img{
+    height: 50px;
+}
+
+.nav-header{
+    display: flex;
+    align-items: center;
+}
+
+.nav-link{
+    font-weight: 600;
+    padding: 10px;
+}
+
+.nav-header a{
+    background-color: brown;
+    padding-inline: 10px;
+}
+
+
+fieldset{
+    padding: 5px;
+}
+
+/*.div-nav{
     grid-area: 1 / 2 / 2 / 6;
     background-color: antiquewhite;
     border-style:groove;
@@ -65,4 +106,4 @@ aside{
 footer{
     display: flex;
     justify-content: center;
-}
+}*/
