@@ -1,4 +1,4 @@
-.gridBody{
+/*.gridBody{
     background-color: cadetblue;
     display: grid;
     grid-column: repeat(5,1fr);
@@ -12,17 +12,32 @@
     grid-area: 1 / 1 / 2 / 2;
     background-color: aqua;
     border-style: groove;
+}*/
+body{
+    margin: 0;
+
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
 }
 
 header{
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    background-color: black;
+    height: 65px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
 }
-.div-nav{
-    grid-area: 1 / 2 / 2 / 6;
-    background-color: antiquewhite;
-    border-style:groove;
+
+.home{
+    display: flex;
+}
+
+.home img{
+    height: 50px;
 }
 
 nav{
@@ -31,11 +46,39 @@ nav{
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-.navItems{
-    border-style: groove;
+
+.nav-header{
+    display: flex;
+    align-items: center;
 }
 
-main{
+.nav-link{
+    font-weight: 600;
+    padding: 10px;
+}
+
+.nav-header a{
+    background-color: brown;
+    padding-inline: 10px;
+}
+
+
+fieldset{
+    padding: 5px;
+}
+
+/*.div-nav{
+    grid-area: 1 / 2 / 2 / 6;
+    background-color: antiquewhite;
+    border-style:groove;
+}
+
+
+.navItems{
+    border-style: groove;
+}*/
+
+.titulo{
     background-image: url("../css/espacio.gif");
     background-size: cover;
     height: auto;
@@ -49,10 +92,11 @@ main{
 
 .chronospace{
     display:flex;
+    color: aliceblue;
     justify-content: space-around;
 }
 
-.div-section{
+/*.div-section{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -82,4 +126,4 @@ aside{
 footer{
     display: flex;
     justify-content: center;
-}
+}*/
