@@ -1,17 +1,17 @@
 .container{
     background-color:green;
-    display: grid;
-    grid-template-areas: "header header header"
-                        "section section section"
-                        "footer footer footer";
-    gap: 9px;
-    text-align: center;
-    font-size: larger;
-    color: rgb(0, 0, 0);
+    margin: 0;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 0.8rem;
 }
 
-.header{
-    grid-area:header;
+a{
+    text-decoration: none;
+    color: aliceblue;
+    text-align: center;
+}
+
+header{
     display: flex;
     background-color: black;
     height: 65px;
@@ -19,16 +19,26 @@
     align-items: center;
     padding: 5px;
 }
-a{
-    text-decoration: none;
-    color: aliceblue;
+
+.home{
+    display: flex;
 }
+
+.home img{
+    height: 50px;
+}
+
 nav{
     display: flex;
     flex-direction:row;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+.div-nav{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .nav-header{
     display: flex;
     align-items: center;
@@ -42,23 +52,26 @@ nav{
 .nav-header a{
     background-color: brown;
     padding-inline: 10px;
+    border-radius: 10px;
+    
 }
 
 
 fieldset{
-    padding: 5px;
-}
-
-
+    padding: 8px;
+    display: flex;
+    justify-content: center}
 section{
     grid-area: section;
 }
 footer{
     grid-area: footer;
-    background-color: brown;
+    background-color: brown;   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
-.columns{
-    
+.columns{  
     display: flex;
     flex-direction: column;
 }
