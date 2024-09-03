@@ -64,13 +64,25 @@ fieldset{
 section{
     grid-area: section;
 }
+
 footer{
-    grid-area: footer;
-    background-color: brown;   
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    color: aliceblue;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
 }
+footer p{
+    margin: 20px;
+}
+.redes{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.redes img{
+    margin: 10px;
+}
+
 .columns{  
     display: flex;
     flex-direction: column;
