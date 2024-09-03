@@ -15,29 +15,32 @@
 }*/
 body{
     margin: 0;
-
+    font: oblique 120% cursive;
 }
 
 a{
     text-decoration: none;
     color: aliceblue;
+    text-align: center;
 }
 
 header{
     display: flex;
     background-color: black;
-    height: 65px;
+    height: 90px;
     justify-content: space-between;
     align-items: center;
     padding: 5px;
+    
 }
 
 .home{
     display: flex;
+    margin: 10px;
 }
 
 .home img{
-    height: 50px;
+    height: 75px;
 }
 
 nav{
@@ -53,18 +56,47 @@ nav{
 }
 
 .nav-link{
-    font-weight: 600;
+    font-weight: 200;
     padding: 10px;
+    
+}
+
+.nav-link a:hover{
+    box-shadow: 0 5px 35px rgb(219, 0, 0);
 }
 
 .nav-header a{
     background-color: brown;
     padding-inline: 10px;
+    border-radius: 10px;
+    margin: 2px;
 }
 
-
-fieldset{
+#input-buscar{
     padding: 5px;
+    padding-right: 35px;
+    border-radius: 10px 0 0 10px;
+    border: 0;
+    outline: none;
+}
+
+#button-buscar{
+    margin: 0;
+    border: 0;
+    padding: 5px;
+    padding-right: 15px;
+    border-radius: 0 10px 10px 0;
+    background-color: brown;
+    font-style: i;
+}
+
+#button-buscar img{
+    margin-left: 10px;
+    height: 15px;
+}
+#button-buscar:hover{
+    box-shadow: 0 5px 30px rgb(219, 0, 0);
+    transform: translateX(2px);
 }
 
 /*.div-nav{
@@ -79,7 +111,7 @@ fieldset{
 }*/
 
 .titulo{
-    background-image: url("../css/espacio.gif");
+    background-image: url("../images/espacio.gif");
     background-size: cover;
     height: auto;
     width: auto;
@@ -95,6 +127,81 @@ fieldset{
     color: aliceblue;
     justify-content: space-around;
 }
+
+
+/*PARTICIPANTES*/
+
+.participantes{
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    background-image: url("../images/espacio-img.png");
+    color: aliceblue;
+
+}
+
+.participantes .titulo-participantes{
+    padding: 5px;
+    background-color: rgb(196, 62, 13);
+    border-radius: 30px;
+}
+
+.participantes .participantes-des{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 10px;
+}
+.participantes article{
+    background-color: rgb(247, 124, 9);
+    border-radius: 30px;
+    margin: 10px;
+    padding: 5px;
+}
+
+.participantes article button{
+    display: inline-flex;
+    background-color: rgb(196, 62, 13);
+    column-gap: 5px;
+    padding: 5px;
+    font: oblique 80% cursive;
+    border-radius: 20px;
+    font-weight: 300;
+    box-shadow: 0 8px 24px black;
+    margin-bottom: 5px;
+}
+
+.participantes button:hover{
+    box-shadow: 0 8px 32px rgb(219, 0, 0);
+    transform: translateY(2px);
+}
+
+
+footer{
+    display: flex;
+    color: aliceblue;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+}
+
+footer p{
+    margin: 20px;
+}
+
+.redes{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.redes img{
+    margin: 10px;
+}
+
+.participantes fieldset{
+    border: 0;
+    height: 2px;
+}
+
+
 
 /*.div-section{
     display: flex;
