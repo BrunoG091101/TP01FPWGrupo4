@@ -151,6 +151,10 @@ nav{
     grid-template-columns: repeat(2, 1fr);
     padding: 10px;
 }
+
+.participantes-des img{
+    height: 200px;
+}
 .participantes article{
     background-color: rgb(247, 124, 9);
     border-radius: 30px;
