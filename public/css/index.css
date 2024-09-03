@@ -146,6 +146,26 @@ fieldset{
     transform: translateY(2px);
 }
 
+footer{
+    display: flex;
+    color: aliceblue;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+}
+
+footer p{
+    margin: 20px;
+}
+
+.redes{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.redes img{
+    margin: 10px;
+}
+
 /*.div-section{
     display: flex;
     flex-direction: row;
